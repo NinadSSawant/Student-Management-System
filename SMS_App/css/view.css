@@ -1,0 +1,139 @@
+body {
+    background: #4070f4;
+}
+
+.table table {
+background-color: azure;
+border: 1px, solid, black;
+table-layout: fixed;
+width: 70%;
+text-align: center;
+}
+
+.rollno-heading {
+width: 100px;
+font-family: "Rockwell";
+font-size: 22px;
+}
+.name-heading {
+width: 200px;
+font-family: "Rockwell";
+font-size: 22px;
+}
+.marks-heading {
+width: 105px;
+font-family: "Rockwell";
+font-size: 22px;
+}
+
+td {
+background: rgb(70, 226, 226);
+width: 100px;
+height: fit-content;
+font-family: "Calibri";
+font-size: 18px;
+}
+
+.title {
+padding-left: 5px;
+text-align: center;
+}
+
+.title-container {
+width: 330px;
+height: 40px;
+font-size: 25px;
+background-color: whitesmoke;
+font-family: "Agency FB";
+color: #4B5320;
+border-radius: 6px;
+text-align: center;
+margin-left: 505px;
+}
+
+.container {
+padding-bottom: 20px;
+background-color: white;
+border-radius: 10px;
+width: 480px;
+}
+#viewTitle {
+padding-top: 1px;
+font-family: "Poppins";
+font-size: 25px;
+}
+
+.nav.button input{
+position: relative;
+margin-left: 638px;
+margin-top: 5px;
+color: #fff;
+letter-spacing: 1px;
+border: 1px, solid, #133081;
+background: #133081;
+cursor: pointer;
+font-size: 15px;
+border-radius: 3px;
+}
+.nav.button input:hover {
+background: #040e2b;
+}
+.container h4{
+position: relative;
+font-size: 22px;
+font-weight: 600;
+color: #333;
+}
+.container h4::before{
+margin-left: 100px;
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+height: 3px;
+width: 60px;
+border-radius: 20px;
+background: #4070f4;
+}
+.container .delInput input {
+margin-top: 0;
+font-family: "Calibri";
+font-size: 25px;
+}
+
+form .input-box input{
+height: 37px;
+font-family: "Calibri";
+outline: none;
+padding: 0 15px;
+font-size: 18px;
+font-weight: 400;
+color: #333;
+border: 1.5px solid #C7BEBE;
+border-bottom-width: 2.5px;
+border-radius: 6px;
+transition: all 0.3s ease;
+}
+.input-box input:focus,
+.input-box input:valid {
+border-color: #4070f4;
+}
+
+.input-box.button input{
+margin-top: 8px;
+color: #fff;
+letter-spacing: 1px;
+border: none;
+background: #4070f4;
+cursor: pointer;
+}
+.input-box.button input:hover{
+background: #040e2b;
+}
+#note {
+font-style: italic;
+position:absolute;
+font-size: 15px;
+margin-left: 126px;
+margin-top: 39px;
+}

@@ -1,0 +1,87 @@
+body {
+    background: #4070f4;
+}
+
+.table table {
+background-color: azure;
+border: 1px, solid, black;
+table-layout: fixed;
+width: 60%;
+text-align: center;
+text-justify: auto;
+}
+
+.rollno-heading {
+width: 40px;
+font-family: "Rockwell";
+font-size: 22px;
+}
+.name-heading {
+width: 120px;
+font-family: "Rockwell";
+font-size: 22px;
+}
+.marks-heading {
+width: 60px;
+font-family: "Rockwell";
+font-size: 22px;
+}
+
+td {
+background: rgb(70, 226, 226);
+width: 100px;
+height: fit-content;
+font-family: "Calibri";
+font-size: 18px;
+}
+
+.title {
+padding-left: 5px;
+text-align: center;
+}
+
+.title-container {
+width: 330px;
+height: 40px;
+font-size: 25px;
+background-color: whitesmoke;
+font-family: "Agency FB";
+color: #4B5320;
+border-radius: 6px;
+text-align: center;
+margin-left: 505px;
+}
+
+.container {
+padding-bottom: 10px;
+background-color: white;
+border-radius: 10px;
+width: 60%;
+}
+.deltile {
+font-family: "Poppins";
+font-size: 30px;
+}
+.container .delInput input {
+margin-top: 0;
+font-family: "Calibri";
+font-size: 25px;
+}
+
+
+#btnHome {
+color: aquamarine;
+position: relative;
+margin-left: 635px;
+margin-top: 5px;
+color: #fff;
+letter-spacing: 1px;
+border: 1px, solid, #133081;
+background: #133081;
+cursor: pointer;
+font-size: 15px;
+border-radius: 3px;
+}
+#btnHome:hover {
+background: #040e2b;
+}
